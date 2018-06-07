@@ -5,10 +5,10 @@ print("I am sonali")
 print("acad"+"view")
 
 #Q3 print values of x,y,z
-x=2
-y=3
-z=4
-print("%d %d %d"%(x,y,z))
+x=input("enter no.")
+y=input("enter no.")
+z=input("enter no.")
+print(x,y,z)
 
 #Q4 print let's get started
 print("let\'s get started")
