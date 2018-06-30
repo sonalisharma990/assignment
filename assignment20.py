@@ -23,9 +23,9 @@ print(df.T)
 #4.
 print(df.tail(5))
 
+
 #5.
-c=pd.read_csv("test8.csv")
-df=pd.DataFrame(c,index=[1])
-print(df.head)
-print(df.axes)
-print(df.shape)
+print(df['MinTemp'].head)
+print(df['MinTemp'].dtypes)
+print(df['MinTemp'].shape)
+
